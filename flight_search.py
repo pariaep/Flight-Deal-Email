@@ -1,7 +1,7 @@
 import requests
 from flight_data import FlightData
-TEQ_ENDPOINT = "https://tequila-api.kiwi.com"
-TEQ_API_KEY = "tey4ymh-jRsXNr3-tUMglWL9ZnqOGfsm"
+TEQ_ENDPOINT = "ENDPOINT"
+TEQ_API_KEY = "YOUR_API_KEY"
 class FlightSearch:
     def get_destination_code(self, city):
         location_endpoint = f"{TEQ_ENDPOINT}/locations/query"
