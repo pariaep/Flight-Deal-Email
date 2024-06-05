@@ -1,5 +1,5 @@
 import requests
-SHEETY_ENDPOINT = "https://api.sheety.co/yourKey/flightDeals/sheet1"
+SHEETY_ENDPOINT = "YOUR_ENDPOINT"
 class DataManager:
     def __init__(self):
         self.destination_data = {}

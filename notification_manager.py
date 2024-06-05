@@ -10,7 +10,7 @@ class NotificationManager:
         self.client = Client(T_SID, T_AUTH_TOKEN)
 
     def send_notification(self, message):
-        message = self.client.messages.create(from_="+18773959116", to="YOUR_NUMBER", body=message)
+        message = self.client.messages.create(from_="Number", to="YOUR_NUMBER", body=message)
         print(message.sid)
 
     def send_email(self, emails, message):
